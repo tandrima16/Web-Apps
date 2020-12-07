@@ -1,6 +1,6 @@
 body{
-     background:#4DA8DA ; 
-    /* background: linear-gradient(to right, #00aaff,#00ff6c); */
+     /* background:#4DA8DA ;  */
+    background: linear-gradient(to right, #00aaff,#FE0000);
     color: #f6f6f6;
     display: flex;
     flex-direction: column;
@@ -10,9 +10,12 @@ body{
    
 }
 .border{
-    border : black solid 1px;
+    /* border : black solid 1px;
     border-radius: 20px;
-    background: #203647 ;
+    background: #203647 ; */
+    background-color: #203647;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .controls button{
@@ -44,4 +47,9 @@ ul{
 ul li {
     list-style: none;
     padding: 10px 0;
+}
+h1{
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace
+
 }

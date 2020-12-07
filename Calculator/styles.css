@@ -1,0 +1,45 @@
+.container{
+    text-align: center;
+    color: black;
+}
+body{
+    
+   background: linear-gradient(to right, #F4F30B ,#FF0101);
+   color: #f6f6f6;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+  
+}
+h1{
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+input{
+    height: 70px;
+    width: 297px;
+    font-size: 34px;
+    margin: 5px;
+    border: 3.5px solid black;
+}
+button{
+    height: 75px;
+    width: 75px;
+    background: #607d8b;
+    font-size: 25px;
+    
+}
+button.equals{
+    height: 153px;
+}
+button.zero{
+    width: 153px;
+}
+.calculator{
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
