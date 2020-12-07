@@ -1,5 +1,6 @@
 body{
-    background:#4DA8DA ;
+     background:#4DA8DA ; 
+    /* background: linear-gradient(to right, #00aaff,#00ff6c); */
     color: #f6f6f6;
     display: flex;
     flex-direction: column;
